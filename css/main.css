@@ -1,0 +1,81 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: black
+}
+
+.background {
+	width: 1250px;
+	margin: 0 auto;
+	background: url(../images/background2.jpg) no-repeat 0px 150px;
+	background-size: contain;
+}
+.intro {
+	margin-top: 10px;
+	background: url(../images/marquee.png);
+	background-size: contain;
+	width: 1250px;
+	height: 205px;
+	box-shadow: 0 0 40px white;
+}
+.intro h1, h3 {
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px white;
+}
+.intro h1 {
+	padding-top: 32px;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 1px 2px white;
+}
+.intro h3 {
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: center;
+}
+.input-area {
+	margin: 10px auto;
+	width: 350px;
+}
+.input-box, .enter {
+	font-size: 20px;
+}
+.enter {
+	border-radius: 20px;
+	box-shadow: 0px 0px 40px purple;
+}
+.now-showing {
+	width: 150px;
+	margin: 0 auto;
+	background: #D4AF37;
+	text-align: center;
+	text-shadow: 1px 1px 40px white;
+	font-weight: bold;
+	border: 2px solid black;
+}
+.poster-result-area {
+	width: 500px;
+	margin: 8px auto;
+	height: 700px;
+	border: 1px white solid;
+	background-size: contain;	
+}
+.poster {
+	width: 500px;
+	height: 700px;
+}
+.info-result-area {
+	border: 1px solid blue;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 550px;
+	left: 950px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	text-align: left;
+}
+.info-result-area p {
+	padding-left: 4px;
+}
