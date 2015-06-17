@@ -54,28 +54,65 @@ body {
 	border: 2px solid black;
 }
 .poster-result-area {
-	width: 500px;
 	margin: 8px auto;
+	width: 500px;
 	height: 700px;
-	border: 1px white solid;
 	background-size: contain;	
 }
 .poster {
+	border: 1px white solid;
 	width: 500px;
 	height: 700px;
+	box-shadow: 1px 1px 40px white;
 }
 .info-result-area {
+	margin: 0 auto;
+	display: none;
 	border: 1px solid blue;
-	height: 200px;
 	width: 200px;
-	position: absolute;
-	top: 550px;
-	left: 950px;
+	height: 85px;
 	background-color: black;
 	color: white;
 	font-size: 15px;
-	text-align: left;
+	font-family: "times new roman";
+	box-shadow: 1px 1px 40px blue;
+	text-align: justify;
 }
 .info-result-area p {
-	padding-left: 4px;
+	padding: 4px 0 0 4px;
+}
+
+@media only screen and (max-width: 1350px) {
+	.background {
+		width: 1000px;
+		height: 800px;
+	}
+	.intro {
+		width: 1000px;
+		height: 150px;
+	}
+	.intro h1 {
+		font-size: 45px;
+	}
+	.intro h3 {
+		padding: 8px;
+	}
+	.poster-result-area {
+		width: 400px;
+		height: 700px;
+	}
+	.poster {
+		width: 400px;
+		height: 550px;
+	}
+	.info-result-area {
+		margin: -400px 750px;
+	}
+	.input-area {
+		width: 261px;
+	}
+	.input-box, .enter {
+		font-size: 15px;
+	}
+
 }

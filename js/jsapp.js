@@ -25,6 +25,7 @@ $(function() {
 			yearResults = requestResults.results[0].release_date;
 			console.log(postersResults);
 			console.log(yearResults);
+			$('.info-result-area').show();
 			$('.poster-result-area').append('<img class=poster src=https://image.tmdb.org/t/p/original' + postersResults + ' alt=image />');
 			$('.info-result-area').append('<p id="year">Year Of Release: ' + yearResults + '</p>');
 			movieId = requestResults.results[0].id;
